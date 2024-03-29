@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Rose-White: hsl(330, 100%, 98%);
+    --color-Eggshell: hsl(30, 54%, 90%);
+    --color-Light-Grey: hsl(30, 18%, 87%);
+    --color-Wenge-Brown: hsl(30, 10%, 34%);
+    --color-Dark-Charcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-rasp0berry: hsl(132, 51%, 32%);
+
+}
+body {
+    background-color: var(--color-Eggshell);
+    color: var(--color-Wenge-Brown);
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.4;
+    display: grid;
+    place-content: center;
+    margin: auto 0;
+}
+main {
+    width: 800px;
+    background-color: var(--color-White);
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 25px;
+}
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+p {
+    font-size: 16px;
+}
+h1 {
+    color: var(--color-Dark-Charcoal);
+    margin-bottom: 2.8rem;
+    font-family: "Young Serif", serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 35px;
+}
+.head-bottom-details {
+    margin-bottom: 30px;
+}
+.preparation {
+    background-color: var(--color-Rose-White);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-left:  30px;
+}
+
+.preparation >div > ul {
+    padding-left: 24px;
+}
+.preparation > h2 {
+    color: rgb(133, 4, 32);
+    font-family: "Outfit" , serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.preparation > div > ul > li {
+    padding-left: 13px;
+    padding: 5px;
+}
+h2 {
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+    font-family: "Young Serif" , sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.ingredients > ul {
+    margin-left: 22px;
+}
+
+.ingredients > ul > li {
+    padding-left: 20px;
+}
+li::marker {
+    font-size: .7em;
+}
+.instraction > div {
+    display: flex;
+}
+.num {
+    color: var(--nutmeg);
+    font-weight: bold ;
+    padding-right: 20px;
+}
+table  {
+    border-collapse: collapse;
+}
+table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    
+}
+table tr:last-child {
+    border-bottom: none;
+}
+.g {
+    font-weight: bold;
+    color: var(--nutmeg); 
+    padding-right: 270px;
+}
+.protin {
+    font-size: 17px;
+    padding-right: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+hr {
+    margin: 35px auto;
+    opacity: .5;
+}
+.ingre {
+    margin-top: 30px;
+}
